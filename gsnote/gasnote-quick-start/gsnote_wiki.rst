@@ -103,6 +103,28 @@ rest的入门可以参考 `A ReStructuredText Primer`_ 。
 
     .. image:: _images/python.png
 
+.. image:: _images/python.png
+
+代码块::
+
+    .. code:: go
+
+        package main
+        import fmt
+
+        function main() {
+            fmt.Println("hello world!")
+        }
+
+.. code:: go
+
+    package main
+    import fmt
+
+    function main() {
+        fmt.Println("hello world!")
+    }
+
 其他略常用的也就是表格、链接、块引用几个，尽管文档看起来稍大，但用起来其实很简单。
 
 快速入门
